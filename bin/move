@@ -13,4 +13,4 @@ index = input_to_index(user_input)
 
 asdf = move(board[index], default_player)
 
-display_board(asdf)
+display_board(board[index])
