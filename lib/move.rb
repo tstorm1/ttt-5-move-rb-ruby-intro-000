@@ -11,5 +11,5 @@ def input_to_index(user_input)
 end
 
 def move(board, index, default_player = "X")
-  
+  board[index] = default_player
 end
